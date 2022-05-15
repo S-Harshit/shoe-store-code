@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  .cartInfo {
+    text-align: left;
+    margin: 20px;
+  }
+
+  .cartImage {
+    img {
+      min-width: 100px;
+      min-height: 100px;
+      max-height: 100px;
+      max-width: 100px;
+      margin: 20px;
+      padding: 0px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

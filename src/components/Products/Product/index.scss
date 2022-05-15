@@ -1,0 +1,22 @@
+.shoeCard {
+  cursor: pointer;
+  width: min-content;
+}
+
+.shoeCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition-delay: 0.1s;
+}
+
+.priceRating {
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+h5 {
+  font-weight: 100;
+  font-size: 14px;
+}

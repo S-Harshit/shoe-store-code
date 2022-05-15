@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Product_Sans;
+}
+
+@font-face {
+  font-family: "Gobold";
+  src: local("Gobold_Regular"),
+    url("./fonts/Gobold_Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Product_Sans";
+  src: local("Product_Sans"), url("./fonts/Product_Sans.ttf") format("truetype");
+}
